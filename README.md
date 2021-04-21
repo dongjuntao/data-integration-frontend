@@ -1,5 +1,9 @@
 # data-integration-web 
-# 数据集成系统
+# 数据采集系统前端
+
+### 介绍
+数据采集平台前端，前端使用 **vue+element-ui** ，实现了前后端分离开发，需要安装 **node.js** ，再安装依赖，最后启动即可，需要注意，项目中配置的后端地址需要自行修改为自己的地址。 后端代码路径：  **https://gitee.com/dongjuntao/data-integration-backend.git** ，
+线上演示环境：  **http://49.234.85.17/di/#/login** ，测试账号密码： **test/123@abcd** 
 
 ### 技术选型
 
@@ -14,20 +18,3 @@ v-charts | 基于Echarts的图表框架 | [https://v-charts.js.org/](https://v-c
 Js-cookie | cookie管理工具 | [https://github.com/js-cookie/js-cookie](https://github.com/js-cookie/js-cookie)
 nprogress | 进度条控件 | [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)
 vue-element-admin | 项目脚手架参考 | [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-### 项目布局
-``` lua
-src -- 源码目录
-├── api -- axios网络请求定义
-├── assets -- 静态图片资源文件
-├── components -- 通用组件封装
-├── icons -- svg矢量图片文件
-├── router -- vue-router路由配置
-├── store -- vuex的状态管理
-├── styles -- 全局css样式
-├── utils -- 工具类
-└── views -- 前端页面
-    ├── home -- 首页
-    ├── layout -- 通用页面加载框架
-    ├── login -- 登录页
-```
